@@ -1,0 +1,24 @@
+namespace InterestCalculatorLibrary
+{
+    public class InterestCalculator
+    {
+        public static double CalculatePrimer(double principal, double rate, int periods)
+        {
+            return (rate * 0.01 * principal * periods + principal); //единовременная выплата
+        }
+        public static double CalculateSimpleInterest(double principal, double rate, int periods)
+        {
+            return principal * (1 + rate * 0.01 * periods); //простая
+        }
+
+        public static double CalculateCompoundInterest(double principal, double rate, int periods)
+        {
+            return principal * Math.Pow(1 + rate * 0.01, periods); //сложная
+        }
+
+        public static double CalculateContinuousInterest(double principal, double rate, int periods)
+        {
+            return principal * Math.Exp(rate * 0.01 * periods); //непрерывная
+        }
+    }
+}

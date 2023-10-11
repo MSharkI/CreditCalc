@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" modified="2023-10-11T18:14:18.757Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="GmcHg-BJadnQhPjWLyrE" version="22.0.4" type="google">
+  <diagram name="Page-1" id="-fiECuthoflhhGSUAid4">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hb7MTOBjRJVmMgS6jx4L-1" value="user" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hb7MTOBjRJVmMgS6jx4L-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hb7MTOBjRJVmMgS6jx4L-1" target="hb7MTOBjRJVmMgS6jx4L-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="260" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hb7MTOBjRJVmMgS6jx4L-4" value=":interface()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hb7MTOBjRJVmMgS6jx4L-5" value="Заполнение&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;полей" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hb7MTOBjRJVmMgS6jx4L-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hb7MTOBjRJVmMgS6jx4L-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="240" as="sourcePoint" />
+            <mxPoint x="400" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hb7MTOBjRJVmMgS6jx4L-7" value=":controller()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hb7MTOBjRJVmMgS6jx4L-8" value="Выбор&lt;br&gt;команды" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hb7MTOBjRJVmMgS6jx4L-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="400" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hb7MTOBjRJVmMgS6jx4L-10" value="Выполнение&lt;br&gt;метода" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hb7MTOBjRJVmMgS6jx4L-11" value=":InterestCalculator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hb7MTOBjRJVmMgS6jx4L-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hb7MTOBjRJVmMgS6jx4L-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="550" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hb7MTOBjRJVmMgS6jx4L-13" value="function1:CalculateSimpleInterest()&lt;br&gt;function2:CalculateCompoundInterest()&lt;br&gt;function3:CalculateContinuousInterest()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="420" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hb7MTOBjRJVmMgS6jx4L-14" value="Обращение к DLL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hb7MTOBjRJVmMgS6jx4L-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hb7MTOBjRJVmMgS6jx4L-11" target="hb7MTOBjRJVmMgS6jx4L-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="480" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="450" />
+              <mxPoint x="120" y="150" />
+              <mxPoint x="400" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
